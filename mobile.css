@@ -197,9 +197,7 @@ button.subbmit-button {
 }
 
 /* board section */
-.board-container {
-    margin: 0 auto;
-}
+.board-container {height: 180vh;}
 
 .grid-board {
     display: grid;
@@ -248,10 +246,6 @@ button.subbmit-button {
     background-position: left;
 }
 
-.main-container-board {
-    top: 10%;
-}
-
 .img1-footer {
     background-position: center;
 }
@@ -267,4 +261,117 @@ button.subbmit-button {
 .img4-footer {
     background-position: center;
     left: 20px;
+}
+
+.main-container-board {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.title-board-1 {padding-left: 150px;font-size: 3.5em;}
+
+.grid-board-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img1-board read1-board" "img2-board read2-board" "img3-board read3-board" "img4-board read4-board";
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+  
+.img1-board { 
+    grid-area: img1-board;
+    background-image: url('./asset/asset-217.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+  
+.read1-board {
+    grid-area: read1-board;
+    font-size: 1.8em;
+    padding-top: 35px;
+}
+  
+.img2-board { 
+    grid-area: img2-board;
+    background-image: url('./asset/asset-219.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+  
+.read2-board {
+    grid-area: read2-board;
+    font-size: 1.8em;
+    padding-top: 0px;
+}
+  
+.img3-board { 
+    grid-area: img3-board; 
+    background-image: url('./asset/asset-221.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+  
+.read3-board { 
+    grid-area: read3-board;
+    font-size: 1.8em;
+    padding-top: 35px;
+}
+  
+.img4-board { 
+    grid-area: img4-board;
+    background-image: url('./asset/asset-274.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+  
+.read4-board { 
+    grid-area: read4-board; 
+    font-size: 1.8em;
+    padding-top: 35px;
+}
+
+.grid-board-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img5-board" "read5-board";
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+  
+.img5-board { 
+    grid-area: img5-board;
+    background-image: url('./asset/foto-chairman.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    color: white;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
+  
+.read5-board {
+    grid-area: read5-board;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.titel-board-2 {
+    padding-top: 95%;
+    font-size: 3.5em;
+    padding-left: 180px;
+}
+
+.desc-chairman {
+    font-size: 1.8em;
+    padding-top: 390px;
 }

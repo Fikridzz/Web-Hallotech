@@ -664,7 +664,7 @@ hr.hr-milestone {
 
 .board-container {
   position: relative;
-  height: 100vh;
+  height: 160vh;
   background-image: url("./asset/bg-profile-07.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -672,82 +672,179 @@ hr.hr-milestone {
   overflow: hidden;
 }
 
-.title-container-board {
+.title-board-1 {
   color: white;
   font-size: 2.5em;
   font-family: 'Nunito', sans-serif;
 }
 
-span.text-tint-board {
+span.text-tint-board-1 {
   font-weight: 100;
 }
 
-.grid-board {
+.grid-board-1 {
   display: grid;
-  grid-template-columns: 1fr 1.4fr 1fr 1.4fr 1fr 1.4fr;
-  grid-template-areas: "img1-board read1-board img2-board read2-board img3-board read3-board ";
-  width: 80%;
-  height: 300px;
-  grid-column-gap: 10px;
-  padding-left: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "img1-board read1-board img2-board read2-board" "img3-board read3-board img4-board read4-board";
+  width: 70%;
+  height: 400px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .img1-board {
   grid-area: img1-board;
   background-image: url('./asset/asset-217.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
+  background-position: right;
+  background-size: 70%;
 }
 
-.read1-board { 
-  grid-area: read1-board; 
-  background-image: url('./asset/asset-218.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.read1-board {
+  grid-area: read1-board;
+  padding-top: 30px;
 }
 
 .img2-board {
   grid-area: img2-board;
   background-image: url('./asset/asset-219.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
+  background-position: right;
+  background-size: 70%;
 }
 
-.read2-board { 
-  grid-area: read2-board; 
-  background-image: url('./asset/asset-220.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.read2-board {
+  grid-area: read2-board;
+  padding-top: 20px;
 }
 
 .img3-board {
   grid-area: img3-board;
   background-image: url('./asset/asset-221.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
+  background-position: right;
+  background-size: 70%;
 }
 
 .read3-board {
   grid-area: read3-board;
-  background-image: url('./asset/asset-222.png');
+  padding-top: 40px;
+}
+
+.img4-board {
+  grid-area: img4-board;
+  background-image: url('./asset/asset-274.png');
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: 65%;
+  background-position: right;
+  background-size: 70%;
+}
+
+.read4-board {
+  grid-area: read4-board;
+  padding-top: 40px;
+}
+
+.grid-board-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "img5-board read5-board";
+  height: 300px;
+  width: 70%;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.img5-board {
+  grid-area: img5-board;
+  background-image: url('./asset/foto-chairman.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  color: white;
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+}
+
+.read5-board {
+  grid-area: read5-board;
+  color: white;
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
 }
 
 .main-container-board {
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 10%;
 }
 
-span.text-bold-board {
+.titel-board-2 {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 50px;
+}
+
+span.text-tint-board-2 {
+  font-weight: 100;
+}
+
+span.text-bold-board-2 {
   font-weight: 600;
+}
+
+span.text-bold-board-1 {
+  font-weight: 600;
+}
+
+h2.title-start {
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.desc-chairman {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-top: 260px;
+}
+
+p.position-chairman {
+  font-size: 0.75em;
+  margin: 0;
+}
+
+span.first-name-chairman {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+h2.title-name {
+  color: white;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+p.position-board {
+  color: white;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 7px;
+}
+
+p.desc-chief {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
 }
 
 /* footer section */
